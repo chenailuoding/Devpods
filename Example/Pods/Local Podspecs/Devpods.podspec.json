@@ -1,6 +1,6 @@
 {
   "name": "Devpods",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Devpods 本地pods私有仓库搭建",
   "swift_versions": "5.0",
   "description": "TODO: 本地的pods私有仓库搭建以实现组件化功能开发",
@@ -14,11 +14,16 @@
   },
   "source": {
     "git": "https://github.com/chenailuoding/Devpods.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "Devpods/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
   "swift_version": "5.0"
 }

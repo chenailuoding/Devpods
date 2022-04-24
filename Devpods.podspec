@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Devpods'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Devpods 本地pods私有仓库搭建'
   s.swift_version    = '5.0'
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,5 @@ TODO: 本地的pods私有仓库搭建以实现组件化功能开发
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
 end

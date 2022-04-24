@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NBLCSH72FP;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NBLCSH72FP;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -295,10 +297,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Devpods_Example/Pods-Devpods_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Devpods/Devpods.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Devpods.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 			baseConfigurationReference = 62D1B96B459BD62961F5F20C /* Pods-Devpods_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBLCSH72FP;
 				INFOPLIST_FILE = Devpods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +502,7 @@
 			baseConfigurationReference = 6B3CB635B40DBC9EFC60B41B /* Pods-Devpods_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBLCSH72FP;
 				INFOPLIST_FILE = Devpods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADE53CBF46910AAB3746A35D /* Pods-Devpods_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NBLCSH72FP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A62EE92EA2CADF6AF4B29171 /* Pods-Devpods_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = NBLCSH72FP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -557,7 +565,7 @@
 				607FACEE1AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Devpods_Example" */ = {
 			isa = XCConfigurationList;
@@ -566,7 +574,7 @@
 				607FACF11AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Devpods_Tests" */ = {
 			isa = XCConfigurationList;
@@ -575,7 +583,7 @@
 				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

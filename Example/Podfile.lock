@@ -1,15 +1,22 @@
 PODS:
-  - Devpods (0.1.0)
+  - Alamofire (4.9.1)
+  - Devpods (0.1.1):
+    - Alamofire
 
 DEPENDENCIES:
   - Devpods (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   Devpods:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Devpods: 6f54380e9375ff5b37b880902e9ab3d7eacf77f4
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Devpods: 19e1d0778f6f168bd9074a2ec6fcafb25d1392a2
 
 PODFILE CHECKSUM: 01c4644a7f259893f9d6e60e2c3192130816c7e7
 
