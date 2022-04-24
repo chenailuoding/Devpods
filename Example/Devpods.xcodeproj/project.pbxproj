@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0789853B2811CD6600A36472 /* ColorTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0789853A2811CD6500A36472 /* ColorTool.podspec */; };
 		1068D95A28F2061E5859929D /* Pods_Devpods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D30DB2BDFAD12BF367ED36 /* Pods_Devpods_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,10 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C6F7905212D0180A13B1189 /* Devpods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Devpods.podspec; path = ../Devpods.podspec; sourceTree = "<group>"; };
-		2AFD33D2E1D710776C9D499D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0789853A2811CD6500A36472 /* ColorTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ColorTool.podspec; path = ../ColorTool.podspec; sourceTree = "<group>"; };
+		1C6F7905212D0180A13B1189 /* Devpods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Devpods.podspec; path = ../Devpods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AFD33D2E1D710776C9D499D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5728877C4E1AB7B26FD13104 /* Pods_Devpods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Devpods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E140ACA05A28CBE88C6F606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E140ACA05A28CBE88C6F606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Devpods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devpods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +79,6 @@
 				ADE53CBF46910AAB3746A35D /* Pods-Devpods_Tests.debug.xcconfig */,
 				A62EE92EA2CADF6AF4B29171 /* Pods-Devpods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				0789853A2811CD6500A36472 /* ColorTool.podspec */,
 				1C6F7905212D0180A13B1189 /* Devpods.podspec */,
 				5E140ACA05A28CBE88C6F606 /* README.md */,
 				2AFD33D2E1D710776C9D499D /* LICENSE */,
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +251,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0789853B2811CD6600A36472 /* ColorTool.podspec in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +488,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
